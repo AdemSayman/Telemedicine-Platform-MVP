@@ -63,7 +63,7 @@ app.get('/api-docs.json', (req, res) => {
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: 'Telemedicine backend is running successfully.'
+        message: 'Telemedicine  is running successfully.'
     });
 });
 
